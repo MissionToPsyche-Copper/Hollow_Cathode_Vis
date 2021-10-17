@@ -22,3 +22,36 @@
   .navbar i:hover {
     color: #C5C6C7;
   }
+
+  /*Hero Image and Styling*/
+  #hero-img{
+    /*Added rgba for dimming gradient on background images*/
+    background-image: linear-gradient(rgba(10, 10, 100, 0.01), rgba(10, 0, 0, 0.03)), url('https://wallpapercave.com/wp/VgkEA9b.jpg');
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+    min-height: 90vw; 
+    width: 100%;
+    box-shadow: 0 6px 5px 0 #83837e; 
+    /*Above this is the hero section we coded!*/
+  
+    /* This should be an image. */
+    background-color: white;
+    /* Change this values to work for you. */
+    padding: clamp(100px, 20vh, 200px) 0;
+  }
+  
+  #hero-img h2 {
+  font-size: clamp(1.0rem, 6.0vw, 10.0rem);
+  text-shadow: 2.5px 2.5px #232525;
+  text-align: center;
+  }
+  #hero-img h3 {
+    font-size: clamp(1.0rem, 3.0vw, 8.0rem);
+    text-shadow: 2.0px 2.0px #232525;
+    text-align: center;
+  }
+
