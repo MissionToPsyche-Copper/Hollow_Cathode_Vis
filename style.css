@@ -23,3 +23,12 @@
   .navbar i:hover {
     color: #C5C6C7;
   }
+  h1 {
+      height: 400px;
+      width: 100%;
+      text-align: center;
+      font-size: 8em;
+      /*<!--vertical-align: middle; Need to figure out how to vertically align with colors -->*/
+      background-image: linear-gradient(to bottom right, #ef5966, #a53f5b);
+      color: white;
+  }
