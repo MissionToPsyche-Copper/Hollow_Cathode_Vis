@@ -36,11 +36,10 @@
     min-height: 90vw; 
     width: 100%;
     box-shadow: 0 6px 5px 0 #83837e; 
-    /*Above this is the hero section we coded!*/
+    /*Above this is the hero section!*/
   
-    /* This should be an image. */
+   
     background-color: white;
-    /* Change this values to work for you. */
     padding: clamp(100px, 20vh, 200px) 0;
   }
   
