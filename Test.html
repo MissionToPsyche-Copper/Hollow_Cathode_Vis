@@ -8,11 +8,30 @@
 		</style>
 	</head>
 	<body>
+		<button type="button" id="Play"> Play </button>
 		<script src="js/three.js"></script>
     <script src="js/WebGL.js"></script>
 		<script>
       if ( WEBGL.isWebGLAvailable() ) {
         // Initiate function or other initializations here
+
+				var shouldplay = false;
+				var playbutton = document.getElementById("Play");
+
+				playbutton.addEventListener("click", onButtonClick, false);
+
+				function onButtonClick(event) {
+					if (shouldplay) {
+						playbutton.firstChild.data = "Pause";
+						shouldplay = false;
+					}
+					else {
+						playbutton.firstChild.data = "Play";
+						shouldplay = true;
+					}
+					animate();
+				}
+
 
         const scene = new THREE.Scene();
   			const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
@@ -30,13 +49,16 @@
 
   			const animate = function () {
   				requestAnimationFrame( animate );
+					if (!shouldplay) {
+						return;
+					}
 
   				cube.rotation.x += 0.01;
   				cube.rotation.y += 0.01;
 
   				renderer.render( scene, camera );
   			};
-        animate();
+        //animate();
       } else {
         const warning = WEBGL.getWebGLErrorMessage();
         document.getElementById( 'container' ).appendChild( warning );
