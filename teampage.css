@@ -33,10 +33,12 @@
       color: white;
   }
 /* containers for team member pictures*/
-.column {
-    float: left;
-    width: 20%;
-    padding: 5px;
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
 }
 
 /* Clear floats after image containers */
@@ -48,7 +50,7 @@
 .teampic {
     position: relative;
     height: 250px;
-    width: 250px;
+    width: 225px;
     text-align: center;
     transition: transform 1s;
     transform-style: preserve-3d;
@@ -58,7 +60,7 @@
     position: absolute;
     border: 1px solid black;
     height: 250px;
-    width: 250px;
+    width: 225px;
     backface-visibility: hidden;
 }
 .teampic-front img {
