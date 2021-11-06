@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3jsTesting</title>
+    <style>
+        body { margin: 0; }
+    </style>
+</head>
+<body>
+    <script src="three.js"></script>
+    <script>
+        //imports the 3js library
+        import * as THREE from 'three';
+        import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+
+        //creates a new scene
+        const scene = new THREE.Scene();
+        //creates a new camera:
+        //attribute1 = field of view in degrees
+        //window.* sets the aspect ration
+        //near and far attributes
+        const camera = new THREE.PerspectiveCamera(75,
+            window.innerWidth /  window.innerHeight, 0.1, 1000);
+        //creates a new renderer
+        //.setSize = width and height of displayed object
+        const renderer = new THREE.WebGL1Renderer();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.body.appendChild(renderer.domElement);
+
+        const loader = new GLTFLoader();
+
+        loader.load("3Dmodel.glb", function(gltf) {
+            scene.add(gltf.scene);
+        }, undefined, function (error) {
+            console.error(error);
+        });
+    </script>
+</body>
+</html>
