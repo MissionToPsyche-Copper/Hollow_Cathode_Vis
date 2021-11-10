@@ -23,3 +23,33 @@
     color: #C5C6C7;
   }
 
+
+/*INPIRATION SECTION*/
+#inspiration-section h3 {
+    font-size: clamp(1.0rem, 2.75rem, 1026px);
+    letter-spacing: 0.05em;
+    text-shadow: 1.25px 1.25px #89c2d9;
+    text-align: center;
+    color: #C5C6C7;
+  }
+  #inspiration-section p {
+    color: #C5C6C7;
+    text-shadow: 2.5px 2.5px #131313;
+    filter: brightness(100%);
+    z-index: 1;
+  }
+  .carousel-indicators .btn{
+    width: clamp(1.0rem, 6.0vw, 8.0rem);
+    background-color:#00798c;
+    border: 1px solid white;
+  }
+  
+  .carousel-item img{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    filter: brightness(60%);
+    background-image: linear-gradient(to bottom, transparent, white);
+    
+  }
