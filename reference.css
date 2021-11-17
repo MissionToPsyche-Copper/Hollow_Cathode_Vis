@@ -22,3 +22,22 @@
   .navbar i:hover {
     color: #C5C6C7;
   }
+
+
+
+  /*Reference links*/
+  #reference-section h3{
+    font-size: clamp(1.0rem, 2.75rem, 1026px);
+    text-shadow: 1.25px 1.25px #89c2d9;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #C5C6C7;
+  }
+
+  .reference {
+    color: #C5C6C7;
+    text-shadow: 0.5px 0.5px #89c2d9;
+    font-size: clamp(0.5rem, 1.25rem, 3.0rem);
+    margin: auto;
+    text-align: center;
+  }
