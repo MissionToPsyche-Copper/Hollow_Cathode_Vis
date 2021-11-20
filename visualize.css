@@ -1,4 +1,8 @@
 
+body {
+  /*background-color: rgb(114, 160, 212); */
+}
+
 /*NAVIGATION BAR*/
 .navbar {
     width: 100%;
@@ -52,6 +56,16 @@
     filter: brightness(60%);
     background-image: linear-gradient(to bottom, transparent, white);
   }
+
+  /*Figure section*/
+  #figure-section p {
+    font-size: clamp(1.0rem, 1.5rem, 1026px);
+    color: #00798c;
+    text-shadow: 1.0px 1.0px #131313;
+    filter: brightness(100%);
+    text-align: center;
+  }
+
 
 /*Footer*/
 footer {
