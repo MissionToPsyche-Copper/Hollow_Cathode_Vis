@@ -74,3 +74,18 @@
 .teampic:hover {
     transform: rotateY(180deg);
 }
+
+/*Footer*/
+footer {
+  text-shadow: 0.25px 0.25px #89c2d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 12px;
+  color: #C5C6C7;
+}
+hr {
+  border-top: 2.0px solid #C5C6C7;
+  box-shadow: 0 2.0px 10px 0 #89c2d9; 
+  /* color: #C5C6C7; */
+}
