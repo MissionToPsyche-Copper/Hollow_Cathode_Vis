@@ -1,0 +1,83 @@
+
+body {
+  /*background-color: rgb(114, 160, 212); */
+}
+
+/*NAVIGATION BAR*/
+.navbar {
+    width: 100%;
+    min-height: 2.5em;
+    box-shadow: 0 2px 10px 0 #89c2d9; 
+  }
+  /* #navigation {
+    color: #00798c;
+  }
+  #navigation:hover {
+    color: #C5C6C7;
+  } */
+  
+  .devicon-coffeescript-original {
+    font-size: 2.00em;
+  }
+  .navbar i{
+    color: #00798c;
+  }
+  
+  .navbar i:hover {
+    color: #C5C6C7;
+  }
+
+
+/*INPIRATION SECTION*/
+#inspiration-section h3 {
+    font-size: clamp(1.0rem, 2.75rem, 1026px);
+    letter-spacing: 0.05em;
+    text-shadow: 1.25px 1.25px #89c2d9;
+    text-align: center;
+    color: #C5C6C7;
+  }
+  #inspiration-section p {
+    color: #C5C6C7;
+    text-shadow: 2.5px 2.5px #131313;
+    filter: brightness(100%);
+    z-index: 1;
+  }
+  .carousel-indicators .btn{
+    width: clamp(1.0rem, 6.0vw, 8.0rem);
+    background-color:#00798c;
+    border: 1px solid white;
+  }
+  
+  .carousel-item img{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    filter: brightness(60%);
+    background-image: linear-gradient(to bottom, transparent, white);
+  }
+
+  /*Figure section*/
+  #figure-section p {
+    font-size: clamp(1.0rem, 1.5rem, 1026px);
+    color: #00798c;
+    text-shadow: 1.0px 1.0px #131313;
+    filter: brightness(100%);
+    text-align: center;
+  }
+
+
+/*Footer*/
+footer {
+  text-shadow: 0.25px 0.25px #89c2d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 12px;
+  color: #C5C6C7;
+}
+hr {
+  border-top: 2.0px solid #C5C6C7;
+  box-shadow: 0 2.0px 10px 0 #89c2d9; 
+  /* color: #C5C6C7; */
+}
