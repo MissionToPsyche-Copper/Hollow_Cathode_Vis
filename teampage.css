@@ -197,9 +197,12 @@ img {
 }
 
 .teampic-back a{
+    position: relative;
     font-size: clamp(1.0rem, 2.0rem, 1026px);
     color: #C5C6C7;
-    text-shadow: 1.5px 1.5px #89c2d9;
+    text-shadow: 1.0px 1.25px #89c2d9;
+    top: clamp(1.75rem, 5.75rem, 1026px);
+    z-index: 1;
 }
 
 
