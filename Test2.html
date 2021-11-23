@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Test 1 for 3d model</title>
+		<style>
+			body { margin: 0; }
+		</style>
+	</head>
+	<body>
+		<script src="js/three.js"></script>
+    <script src="js/WebGL.js"></script>
+    <script type="module" src="js/jsm/loaders/GLTFLoader.js"></script>
+
+		<script type="module">
+      if ( WEBGL.isWebGLAvailable() ) {
+        // Initiate function or other initializations here
+        import { GLTFLoader } from 'js/jsm/loaders/GLTFLoader.js';
+
+        const scene = new THREE.Scene();
+  			const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+
+  			const renderer = new THREE.WebGLRenderer();
+  			renderer.setSize( window.innerWidth, window.innerHeight );
+  			document.body.appendChild( renderer.domElement );
+
+  			const threedmodelglb = new GLTFLoader();
+
+        threedmodelglb.load("3Dmodel.glb", function (tempmodel) {
+          scene.add(tempmodel.scene);
+        }, undefined, function (terror) {
+          console.error(terror);
+        });
+
+
+  			camera.position.z = 5;
+
+  			const animate = function () {
+  				requestAnimationFrame( animate );
+
+  				renderer.render( scene, camera );
+  			};
+        animate();
+      } else {
+        const warning = WEBGL.getWebGLErrorMessage();
+        document.getElementById( 'container' ).appendChild( warning );
+      }
+		</script>
+	</body>
+</html>
