@@ -1,7 +1,7 @@
 
-body {
-  /*background-color: rgb(114, 160, 212); */
-}
+/*body {
+  /*background-color: rgb(114, 160, 212); 
+} */
 
 /*NAVIGATION BAR*/
 .navbar {
@@ -29,6 +29,10 @@ body {
 
 
 /*INPIRATION SECTION*/
+#figure1, #figure3{
+  zoom: 125%;  
+}
+
 #inspiration-section h3 {
     font-size: clamp(1.0rem, 2.75rem, 1026px);
     letter-spacing: 0.05em;
@@ -51,10 +55,13 @@ body {
   .carousel-item img{
     height: 600px;
     width: 100%;
+    zoom: 125%;   /*This zoomes out of the image, in order to capture all of the pop up context*/
     object-fit: cover;
     margin: auto;
-    filter: brightness(60%);
+    filter: brightness(85%);
     background-image: linear-gradient(to bottom, transparent, white);
+    background-color: rgba(6, 144, 179, 0.7); 
+    z-index: 1;
   }
 
   /*Figure section*/
