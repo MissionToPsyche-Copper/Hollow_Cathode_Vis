@@ -8,21 +8,24 @@
 		</style>
 	</head>
 	<body>
-		<script src="js/three.js"></script>
-    <script src="js/WebGL.js"></script>
-    <script type="module" src="js/jsm/loaders/GLTFLoader.js"></script>
-
 		<script type="module">
+
+		import { WEBGL } from "js/WebGL.js";
+
       if ( WEBGL.isWebGLAvailable() ) {
         // Initiate function or other initializations here
-        import { GLTFLoader } from 'js/jsm/loaders/GLTFLoader.js';
+
+				import * as THREE from "/js/three.module.js";
+        import { GLTFLoader } from "/js/jsm/loaders/GLTFLoader.js";
 
         const scene = new THREE.Scene();
   			const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+				//camera.position.z = 5;
+				camera.position.set(5, 5, 5);
 
   			const renderer = new THREE.WebGLRenderer();
   			renderer.setSize( window.innerWidth, window.innerHeight );
-  			document.body.appendChild( renderer.domElement );
+
 
   			const threedmodelglb = new GLTFLoader();
 
@@ -32,11 +35,10 @@
           console.error(terror);
         });
 
-
-  			camera.position.z = 5;
+				document.body.appendChild( renderer.domElement );
 
   			const animate = function () {
-  				requestAnimationFrame( animate );
+  				//requestAnimationFrame( animate );
 
   				renderer.render( scene, camera );
   			};
