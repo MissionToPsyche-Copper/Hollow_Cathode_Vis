@@ -29,9 +29,6 @@
 
 
 /*INPIRATION SECTION*/
-#figure1, #figure3{
-  zoom: 125%;  
-}
 
 #inspiration-section h3 {
     font-size: clamp(1.0rem, 2.75rem, 1026px);
@@ -40,31 +37,39 @@
     text-align: center;
     color: #C5C6C7;
   }
+
   #inspiration-section p {
-    color: #C5C6C7;
-    text-shadow: 2.5px 2.5px #131313;
+    color: #131313;
+    position: relative;
+    font-weight: bold;
+    top: 16px;
+    font-size: clamp(0.5rem, 1.50rem, 32px);
+    text-shadow: 0.75px 0.75px #C5C6C7;
     filter: brightness(100%);
-    z-index: 1;
+    
   }
   .carousel-indicators .btn{
     width: clamp(1.0rem, 6.0vw, 8.0rem);
     background-color:#00798c;
     border: 1px solid white;
   }
+  .carousel-inner .zoom img {
+    object-fit: contain;
+    z-index: 1;
+  }
   
   .carousel-item img{
-    height: 600px;
+    height: 600px; 
     width: 100%;
-    zoom: 125%;   /*This zoomes out of the image, in order to capture all of the pop up context*/
     object-fit: cover;
     margin: auto;
     filter: brightness(85%);
     background-image: linear-gradient(to bottom, transparent, white);
-    background-color: rgba(6, 144, 179, 0.7); 
-    z-index: 1;
+    background-color: #00798c; 
+    z-index: 2;
   }
 
-  /*Figure section*/
+  /*Figure section: Styling the content of each figure below the images*/
   #figure-section p {
     font-size: clamp(1.0rem, 1.5rem, 1026px);
     color: #00798c;
