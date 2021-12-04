@@ -26,6 +26,7 @@
 .navbar i:hover {
     color: #C5C6C7;
 }
+
 .header-box{
     background-color: black;
     text-align: center;
@@ -180,13 +181,12 @@ img {
     position: relative;
     height: 250px;
     width: 225px;
-
     transition: transform 1s;
     transform-style: preserve-3d;
 }
 .teampic-front{
     position: absolute;
-    border: 1px solid black;
+    /*border: 1px solid black; */
     height: 250px;
     width: 225px;
     backface-visibility: hidden;
@@ -194,19 +194,29 @@ img {
 .teampic-back {
 
     position: center;
-    border: 1px solid black;
+   /* border: 1px solid black;*/
     height: 250px;
     width: 225px;
     backface-visibility: hidden;
     text-align: center;
-
-
-
 }
+
+.teampic-back a{
+    position: relative;
+    font-size: clamp(1.0rem, 2.0rem, 1026px);
+    color: #C5C6C7;
+    text-shadow: 1.0px 1.25px #89c2d9;
+    top: clamp(1.75rem, 5.75rem, 1026px);
+    z-index: 1;
+}
+
+
 .teampic-front img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-radius: 30px;
+    filter: brightness(85%);
 }
 .teampic-back {
     transform: rotateY(180deg);
@@ -218,6 +228,7 @@ img {
 .teampic:hover {
     transform: rotateY(180deg);
 }
+
 
 /*Footer*/
 footer {
