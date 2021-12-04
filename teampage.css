@@ -1,5 +1,8 @@
 
-
+#my-body {
+    margin:0;
+    padding: 0;
+}
 /*NAVIGATION BAR*/
 .navbar {
     width: 100%;
@@ -26,20 +29,22 @@
 .header-box{
     background-color: black;
     text-align: center;
-    margin: 0;
-    padding: 0px;
-    color: white;
-    font-size: 0px;
     display: block;
 }
-.h1{
+#my-h1{
     display: block;
+    font-size: 2em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 * {box-sizing:border-box}
 .image-box{
     display: flex;
     top: 0px;
-    height: 800px;
+
     width: 100%;
     position: center;
     text-align: center;
