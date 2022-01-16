@@ -6,10 +6,10 @@ const scene = new THREE.Scene()
 
 //This is where we load the glb file
 const loader = new GLTFLoader()
-loader.load('3dTestJohn/SER401_Ideas.glb', function(glb) {
+loader.load('assets/livingroom.glb', function(glb) {
     console.log(glb)
     const root = glb.scene;
-    root.scale.set(1.5,2.5,2.5)
+    root.scale.set(0.1,0.2,0.1)
 
     scene.add(root);
 }, function(xhr){
@@ -19,8 +19,8 @@ loader.load('3dTestJohn/SER401_Ideas.glb', function(glb) {
 })
 
 
-const light = new THREE.DirectionalLight(0xffffff, 1)
-light.position.set(2,2,5)
+const light = new THREE.PointLight(0xffffff, 2, 500)
+light.position.set(4.5, 10, 4.5)
 scene.add(light)
 
 // const geometry = new THREE.BoxGeometry(1,1,1)
