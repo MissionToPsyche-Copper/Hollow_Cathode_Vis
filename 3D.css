@@ -1,4 +1,9 @@
 
+body {
+  background-color: #C5C6C7;
+}
+
+
  #hero-section{
 
     /*Added rgba for dimming gradient on background images*/
@@ -10,12 +15,11 @@
     background-size: cover;
 
     position: relative; 
-    min-height: 65vw; 
+    min-height: 35vw;
     width: 100%;
     box-shadow: 0 6px 5px 0 #83837e; 
 
     background-color: white;
-
     padding: clamp(100px, 20vh, 200px) 0;
   }
   
@@ -61,6 +65,7 @@
   .navbar i:hover {
     color: #C5C6C7;
   }
+
 
 /*Footer*/
 footer {
