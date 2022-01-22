@@ -66,6 +66,16 @@ body {
     color: #C5C6C7;
   }
 
+  /*Figure section: Styling the content of each figure below the images*/
+  #figure-section p {
+    font-size: clamp(1.0rem, 1.5rem, 1026px);
+    color: #00798c;
+    text-shadow: 1.0px 1.0px #131313;
+    filter: brightness(100%);
+    text-align: center;
+  }
+
+
 
 /*Footer*/
 footer {
