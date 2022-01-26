@@ -1,4 +1,4 @@
-
+/*navbar color #302144*/
 body {
   background-color: #C5C6C7;
 }
@@ -54,7 +54,9 @@ body {
   #navigation:hover {
     color: #C5C6C7;
   } 
-  
+  .bg-color{
+      background-color: #302144;
+  }
   .devicon-coffeescript-original {
     font-size: 2.00em;
   }
