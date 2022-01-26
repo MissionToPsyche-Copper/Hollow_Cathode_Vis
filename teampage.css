@@ -1,7 +1,10 @@
-
+/*navbar color #302144*/
 #my-body {
     margin:0;
     padding: 0;
+}
+.bg-color{
+    background-color: #302144;
 }
 /*NAVIGATION BAR*/
 .navbar {
@@ -26,6 +29,7 @@
 .navbar i:hover {
     color: #C5C6C7;
 }
+
 
 .header-box{
     background-color: black;
