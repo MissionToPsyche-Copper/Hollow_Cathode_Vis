@@ -3,7 +3,8 @@
   /*background-color: rgb(114, 160, 212); 
 } */
 
-/*NAVIGATION BAR*/
+/*NAVIGATION BAR
+navbar color #302144*/
 .navbar {
     width: 100%;
     min-height: 2.5em;
@@ -15,7 +16,10 @@
   #navigation:hover {
     color: #C5C6C7;
   } 
-  
+  .bg-color{
+      background-color: #302144;
+
+  }
   .devicon-coffeescript-original {
     font-size: 2.00em;
   }
