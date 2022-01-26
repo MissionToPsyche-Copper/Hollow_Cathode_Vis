@@ -1,5 +1,6 @@
 
-/*NAVIGATION BAR*/
+/*NAVIGATION BAR
+navbar color #302144*/
 .navbar {
     width: 100%;
     min-height: 2.5em;
@@ -31,7 +32,9 @@
     text-align: center;
     color: #C5C6C7;
   }
-
+  .bg-color {
+    background-color: #302144;
+  }
   .reference {
     color: #C5C6C7;
     text-shadow: 0.5px 0.5px #89c2d9;
