@@ -75,7 +75,7 @@
     color: #00798c;
     text-shadow: 1.0px 1.0px #131313;
     filter: brightness(100%);
-    text-align: center;
+    text-align: justify;
   }
 
 
@@ -84,7 +84,7 @@ footer {
   text-shadow: 0.25px 0.25px #89c2d9;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
   height: 12px;
   color: #C5C6C7;
 }
