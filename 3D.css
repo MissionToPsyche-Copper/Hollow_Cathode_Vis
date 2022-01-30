@@ -76,6 +76,17 @@ body {
     text-align: justify;
   }
 
+  /*******three dimensional****/
+  #three-dimension p {
+    position: relative;
+    text-align: left;
+    font-size: clamp(0.50rem, 0.75rem, 1026px);
+    font-weight: normal; 
+    left: 120px;
+   /* margin: 5px; */
+    color: #00798c;
+
+  }
 
 
 /*Footer*/
