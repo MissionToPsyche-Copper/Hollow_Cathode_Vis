@@ -1,5 +1,6 @@
 /*navbar color #302144
-navbar text color "whitesmoke"*/
+navbar text color "whitesmoke"
+navbar text hover color: #F47C33;*/
 #my-body {
     margin:0;
     padding: 0;
@@ -17,7 +18,7 @@ navbar text color "whitesmoke"*/
     color: whitesmoke;
   }
   #navigation:hover {
-    color: #C5C6C7;
+    color: #F47C33;
   } 
 
 .devicon-coffeescript-original {
