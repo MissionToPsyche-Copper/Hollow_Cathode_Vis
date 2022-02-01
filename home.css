@@ -2,7 +2,9 @@
 /*NAVIGATION BAR
 navbar color #302144
 navbar text color "whitesmoke"
-navbar text hover color: #F47C33;*/
+navbar text hover color: #F47C33;
+footer background color #302144
+footer text color "whitesmoke"*/
 
 .navbar {
     width: 100%;
@@ -86,8 +88,9 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 12px;
-  color: #C5C6C7;
+  height: 64px;
+  color: whitesmoke;
+  background-color: #302144;
 }
 hr {
   border-top: 2.0px solid #C5C6C7;
