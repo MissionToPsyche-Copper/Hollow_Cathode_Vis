@@ -2,7 +2,8 @@
 /*NAVIGATION BAR
 navbar color #302144
 navbar text color "whitesmoke"
-*/
+navbar text hover color: #F47C33;*/
+
 .navbar {
     width: 100%;
     min-height: 2.5em;
@@ -12,7 +13,7 @@ navbar text color "whitesmoke"
     color: whitesmoke;
   }
   #navigation:hover {
-    color: #C5C6C7;
+    color: #F47C33;
   } 
   .bg-color{
     background-color: #302144;
