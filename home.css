@@ -16,7 +16,8 @@ footer text color "whitesmoke"*/
   }
   #navigation:hover {
     color: #F47C33;
-  } 
+  }
+
   .bg-color{
     background-color: #302144;
   }
@@ -72,7 +73,8 @@ footer text color "whitesmoke"*/
     text-shadow: 1.25px 1.25px #89c2d9;
     letter-spacing: 0.05em;
     text-align: center;
-    color: #C5C6C7;
+
+    color: #F47C33;
   }
   .intro-p {
     color: #C5C6C7;
