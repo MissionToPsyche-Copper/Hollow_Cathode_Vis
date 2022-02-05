@@ -55,6 +55,11 @@ footer {
   height: 64px;
   color: whitesmoke;
   background-color: #302144;
+
+ /* justify-content: center; 
+    height: 12px;
+    color: #C5C6C7; */
+
 }
 hr {
   border-top: 2.0px solid #C5C6C7;

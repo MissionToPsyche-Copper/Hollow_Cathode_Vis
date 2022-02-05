@@ -8,6 +8,7 @@ navbar color #302144
 navbar text color "whitesmoke"
 footer background color #302144
 footer text color "whitesmoke"*/
+
 .navbar {
     width: 100%;
     min-height: 2.5em;
@@ -82,11 +83,11 @@ footer text color "whitesmoke"*/
     color: #00798c;
     text-shadow: 1.0px 1.0px #131313;
     filter: brightness(100%);
-    text-align: center;
+    text-align: justify;
   }
 
 
-/*Footer*/
+/*******Footer*********/
 footer {
   text-shadow: 0.25px 0.25px #89c2d9;
   display: flex;
@@ -95,9 +96,57 @@ footer {
   height: 64px;
   color: whitesmoke;
   background-color: #302144;
-}
+/*
+  justify-content: center; 
+  height: 12px;
+  color: #C5C6C7; */
+
+}  
 hr {
   border-top: 2.0px solid #C5C6C7;
   box-shadow: 0 2.0px 10px 0 #89c2d9; 
   /* color: #C5C6C7; */
+}
+
+/**********SpaceCraft Scroll bar***********/
+ ::-webkit-scrollbar {
+  width: 1.35em;
+  background-color: #F5F5F5;
+  
+ } 
+ 
+ ::-webkit-scrollbar-thumb {
+  background: url('https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg');
+  background-size: 2.0em 4.0em;
+  background-repeat:no-repeat;
+  background-position:left;
+  height:auto;
+ }
+
+/* Buttons */
+::-webkit-scrollbar-button:single-button {
+  background-color: #bbbbbb;
+  display: block;
+  border-style: solid;
+  height: 13px;
+  width: 16px;
+}
+ /* Up */
+ ::-webkit-scrollbar-button:single-button:vertical:decrement {
+  border-width: 0 8px 8px 8px;
+  border-color: transparent transparent #00798c transparent; 
+}
+
+
+::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+  border-color: transparent transparent #777777 transparent;
+}
+/* Down */
+::-webkit-scrollbar-button:single-button:vertical:increment {
+  border-width: 8px 8px 0 8px;
+  border-color: #00798c  transparent transparent transparent;
+}
+
+::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+  border-color: #777777 transparent transparent transparent;
 }

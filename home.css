@@ -81,7 +81,7 @@ footer text color "whitesmoke"*/
     text-shadow: 0.5px 0.5px #89c2d9;
     font-size: clamp(0.5rem, 1.25rem, 3.0rem);
     margin: auto;
-    text-align: center;
+    text-align: left;
   }
 
 /*Footer*/
