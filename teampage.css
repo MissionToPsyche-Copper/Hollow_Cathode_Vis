@@ -1,6 +1,8 @@
 /*navbar color #302144
 navbar text color "whitesmoke"
-navbar text hover color: #F47C33;*/
+navbar text hover color: #F47C33;
+footer background color #302144
+footer text color "whitesmoke"*/
 #my-body {
     margin:0;
     padding: 0;
@@ -238,12 +240,13 @@ img {
 
 /*Footer*/
 footer {
-  text-shadow: 0.25px 0.25px #89c2d9;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 12px;
-  color: #C5C6C7;
+    text-shadow: 0.25px 0.25px #89c2d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+    color: whitesmoke;
+    background-color: #302144;
 }
 hr {
   border-top: 2.0px solid #C5C6C7;
