@@ -49,13 +49,15 @@ footer text color "whitesmoke"*/
 /*Footer*/
 footer {
   text-shadow: 0.25px 0.25px #89c2d9;
-  display: flex;
+  display: flex; 
   align-items: center;
   justify-content: center;
   height: 64px;
+  width: 100%;
   color: whitesmoke;
   background-color: #302144;
-
+  position: absolute;
+  bottom: 0;
  /* justify-content: center; 
     height: 12px;
     color: #C5C6C7; */
