@@ -1,6 +1,6 @@
 # Hollow Cathode Visualization 
 
-## Motivation: 
+## Motivation
 #### -The project was created in intent to fullfill the Arizona State University Software Engineering capstone I (SER 401) and Capstone II (SER 402) requirements.
 #### -The project familiarizes professional outside the field as well as the general public with hollow cathodes.
 #### -The work reflects the team of four contributors and the demonstration of the hollow cathode effect.
