@@ -14,8 +14,8 @@ body {
  #hero-section{
 
     /*Added rgba for dimming gradient on background images*/
-    background-image: linear-gradient(rgba(10, 10, 100, 0.01), rgba(10, 0, 0, 0.03)), url('https://psyche.asu.edu/wp-content/uploads/2021/03/Psyche_Mission_Spacecraft_210329-1536x1024.jpg');
-  
+    background-image: linear-gradient(rgba(10, 10, 100, 0.01), rgba(10, 0, 0, 0.03)), url('https://psyche.asu.edu/wp-content/uploads/2021/03/Psyche_Mission_Spacecraft_210329-1536x1024.jpg'); 
+ 
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
