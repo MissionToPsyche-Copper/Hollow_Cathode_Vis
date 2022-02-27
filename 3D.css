@@ -96,7 +96,12 @@ body {
     color: #00798c;
 
   }
+  /*Iframe, main visualization */
+  #three-dimension .row .skills .sketchfab-embed-wrapper iframe {
+    width: 100%;
+    height: 660px;
 
+  }
 
 /*Footer*/
 footer {
