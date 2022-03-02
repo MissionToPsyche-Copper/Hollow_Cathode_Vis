@@ -157,12 +157,6 @@ img {
     transition: background-color 0.6s ease;
 }
 
-/*This needs to be removed for the home hover over box 
-.active {
-    background-color: #717171;
-} */
-
-
 /* Fading animation */
 .fade {
     -webkit-animation-name: fade;
@@ -212,7 +206,10 @@ img {
     height: 250px;
     width: 225px;
     backface-visibility: hidden;
-}
+
+ }
+
+
 .teampic-back {
 
     position: center;
@@ -227,7 +224,7 @@ img {
     position: relative;
     font-size: clamp(1.0rem, 2.0rem, 1026px);
     color: #C5C6C7;
-    text-shadow: 1.0px 1.25px #89c2d9;
+    text-shadow: 1.0px 1.25px #302144;
     top: clamp(1.75rem, 5.75rem, 1026px);
     z-index: 1;
 }
@@ -239,6 +236,7 @@ img {
     object-fit: cover;
     border-radius: 30px;
     filter: brightness(85%);
+    box-shadow: 10px 6px 10px 2px #302144; 
 }
 .teampic-back {
     transform: rotateY(180deg);
@@ -250,6 +248,24 @@ img {
 .teampic:hover {
     transform: rotateY(180deg);
 }
+ /*Button Styling*/
+ .button-styling{
+     text-align: center;
+ }
+ .button-styling button {
+    background-color: #302144;
+    color: whitesmoke;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 8px;
+    box-shadow: 0 6px 10px 0 #89c2d9; 
+ }
+ .button-styling button:hover {
+    background-color: #302144;
+    color: #F47C33;
+
+ }
 
 
 /*Footer*/
