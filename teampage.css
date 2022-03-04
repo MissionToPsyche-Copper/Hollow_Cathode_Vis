@@ -248,9 +248,19 @@ img {
 .teampic:hover {
     transform: rotateY(180deg);
 }
+/*course fullfilled script*/
+.course-fulfilled {
+    text-align: center;
+    color: #C5C6C7;
+    text-shadow: 0.5px 0.5px #302144;
+    font-size: clamp(0.5rem, 1.25rem, 3.0rem);
+    margin: auto;
+}
+
  /*Button Styling*/
  .button-styling{
      text-align: center;
+     
  }
  .button-styling button {
     background-color: #302144;
