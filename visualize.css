@@ -91,11 +91,6 @@ footer text color "whitesmoke"*/
     filter: brightness(100%);
     text-align: justify;
   }
-  /*Carousel control next and control previous, buttons on left/right side of image */
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    color: #302144; 
-  }
 
 /*******Footer*********/
 footer {
