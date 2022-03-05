@@ -18,7 +18,7 @@ footer text color "whitesmoke"*/
     color: whitesmoke;
   }
   #navigation:hover {
-    color: #C5C6C7;
+    color: #F47C33;
   } 
   .bg-color{
       background-color: #302144;
@@ -44,6 +44,11 @@ footer text color "whitesmoke"*/
     text-shadow: 1.25px 1.25px #89c2d9;
     text-align: center;
     color: #C5C6C7;
+    background-color: #302144;
+  }
+  #inspiration-section {
+    background-color: #302144;
+
   }
 
   #inspiration-section p {
@@ -65,6 +70,7 @@ footer text color "whitesmoke"*/
     object-fit: contain;
     z-index: 1;
   }
+ 
   
   .carousel-item img{
     height: 600px; 
@@ -73,7 +79,7 @@ footer text color "whitesmoke"*/
     margin: auto;
     filter: brightness(85%);
     background-image: linear-gradient(to bottom, transparent, white);
-    background-color: #00798c; 
+    background-color: #302144; 
     z-index: 2;
   }
 
@@ -85,7 +91,11 @@ footer text color "whitesmoke"*/
     filter: brightness(100%);
     text-align: justify;
   }
-
+  /*Carousel control next and control previous, buttons on left/right side of image */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    color: #302144; 
+  }
 
 /*******Footer*********/
 footer {
