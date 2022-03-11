@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637818601696965343
-    m_Hash: 2166079470
+      ticks: 637823678001815237
+    m_Hash: 1848231260
   m_LockFileStatus:
     m_FilePath: C:/Users/dsknauss/Desktop/SER402/SER401_402_Hollow_Cathode/HollowCathodeOnly/hcv3/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637818601697015344
-    m_Hash: 3121640197
+      ticks: 637823678001815237
+    m_Hash: 2950757854
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -741,6 +741,7 @@ m_PackageAssets:
         - 2.1.6
         - 2.2.0-preview.1
         - 2.2.0-preview.2
+        - 2.2.0-preview.3
         - 3.0.0-preview.1
         - 3.0.0-preview.3
         - 3.0.0-preview.4
@@ -760,11 +761,13 @@ m_PackageAssets:
         - 3.0.6
         - 3.2.0-pre.1
         - 3.2.0-pre.2
+        - 3.2.0-pre.3
         - 4.0.0-pre.1
         compatible:
         - 3.0.6
         - 3.2.0-pre.1
         - 3.2.0-pre.2
+        - 3.2.0-pre.3
         verified: 3.0.6
       dependencies:
       - name: com.unity.ugui
@@ -894,6 +897,7 @@ m_PackageAssets:
         - 1.7.0-pre.1
         - 1.7.0-pre.2
         - 1.7.0
+        - 1.7.1
         compatible:
         - 1.4.8
         - 1.5.0-pre.2
@@ -921,6 +925,7 @@ m_PackageAssets:
         - 1.7.0-pre.1
         - 1.7.0-pre.2
         - 1.7.0
+        - 1.7.1
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
