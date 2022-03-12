@@ -103,6 +103,8 @@ public class sceneLikeCamera : MonoBehaviour
         {
             transform.RotateAround(transform.position,transform.right, mouseMoveY * -rotationSpeed);
             transform.RotateAround(transform.position, Vector3.up, mouseMoveX * -rotationSpeed);
+            //transform.RotateAround(transform.position,transform.right, mouseMoveY * rotationSpeed);
+            //transform.RotateAround(transform.position, Vector3.up, mouseMoveX * rotationSpeed);
         }
 
 
