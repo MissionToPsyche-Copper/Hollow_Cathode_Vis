@@ -1,1 +1,7 @@
 **/.DS_Store
+
+#blender
+*.blend[1-9]
+
+*.idea
+*.idea/

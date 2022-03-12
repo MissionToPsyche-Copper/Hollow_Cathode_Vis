@@ -1,4 +1,12 @@
-
+/*navbar color #302144
+navbar text color "whitesmoke"
+navbar text hover color: #F47C33;
+footer background color #302144
+footer text color "whitesmoke"*/
+#my-body {
+    margin:0;
+    padding: 0;
+}
 
 /*NAVIGATION BAR*/
 .navbar {
@@ -7,11 +15,15 @@
     box-shadow: 0 2px 10px 0 #89c2d9; 
   }
    #navigation {
-    color: #00798c;
+    color: whitesmoke;
   }
   #navigation:hover {
-    color: #C5C6C7;
+    color: #F47C33;
   } 
+
+  .bg-color{
+    background-color: #302144;
+}
 
 .devicon-coffeescript-original {
     font-size: 2.00em;
@@ -26,20 +38,25 @@
 .header-box{
     background-color: black;
     text-align: center;
-    margin: 0;
-    padding: 0px;
-    color: white;
-    font-size: 0px;
     display: block;
-}
-.h1{
+} 
+/* Header box is the stying for meet the team */
+
+#my-h1{
     display: block;
+    font-size: 2em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 * {box-sizing:border-box}
+
 .image-box{
     display: flex;
     top: 0px;
-    height: 800px;
+
     width: 100%;
     position: center;
     text-align: center;
@@ -52,13 +69,22 @@
 }
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;
-    max-height: 500px;
-    position: relative;
+    /*  These two lines restrict the image appearance on the slideshow
+    max-width: 1000px; 
+    max-height: 500px;  */
+    position: relative; 
     margin: auto;
     display: flex;
     justify-content: center;
     text-align: right;
+
+}
+/*Added fixed width and height to secure sizing*/
+/*Note: This will not fit all screen sizes */
+.slideshow-container  img{
+ width: 75vw;
+ height: 35vw;
+
 }
 
 /* Hide the images by default */
@@ -116,12 +142,12 @@
 img {
     vertical-align: middle;
     horiz-align: center;
-
-
 }
+
 
 /* The dots/bullets/indicators */
 .dot {
+
     height: 15px;
     width: 15px;
     margin: 0 2px;
@@ -129,10 +155,6 @@ img {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-}
-
-.active {
-    background-color: #717171;
 }
 
 /* Fading animation */
@@ -175,33 +197,46 @@ img {
     position: relative;
     height: 250px;
     width: 225px;
-
     transition: transform 1s;
     transform-style: preserve-3d;
 }
 .teampic-front{
     position: absolute;
-    border: 1px solid black;
+    /*border: 1px solid black; */
     height: 250px;
     width: 225px;
     backface-visibility: hidden;
-}
+
+ }
+
+
 .teampic-back {
 
     position: center;
-    border: 1px solid black;
+   /* border: 1px solid black;*/
     height: 250px;
     width: 225px;
     backface-visibility: hidden;
     text-align: center;
-
-
-
 }
+
+.teampic-back a{
+    position: relative;
+    font-size: clamp(1.0rem, 2.0rem, 1026px);
+    color: #C5C6C7;
+    text-shadow: 1.0px 1.25px #302144;
+    top: clamp(1.75rem, 5.75rem, 1026px);
+    z-index: 1;
+}
+
+
 .teampic-front img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-radius: 30px;
+    filter: brightness(85%);
+    box-shadow: 10px 6px 10px 2px #302144; 
 }
 .teampic-back {
     transform: rotateY(180deg);
@@ -213,15 +248,45 @@ img {
 .teampic:hover {
     transform: rotateY(180deg);
 }
+/*course fullfilled script*/
+.course-fulfilled {
+    text-align: center;
+    color: #C5C6C7;
+    text-shadow: 0.5px 0.5px #302144;
+    font-size: clamp(0.5rem, 1.25rem, 3.0rem);
+    margin: auto;
+}
+
+ /*Button Styling*/
+ .button-styling{
+     text-align: center;
+     
+ }
+ .button-styling button {
+    background-color: #302144;
+    color: whitesmoke;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 8px;
+    box-shadow: 0 6px 10px 0 #89c2d9; 
+ }
+ .button-styling button:hover {
+    background-color: #302144;
+    color: #F47C33;
+
+ }
+
 
 /*Footer*/
 footer {
-  text-shadow: 0.25px 0.25px #89c2d9;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 12px;
-  color: #C5C6C7;
+    text-shadow: 0.25px 0.25px #89c2d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+    color: whitesmoke;
+    background-color: #302144;
 }
 hr {
   border-top: 2.0px solid #C5C6C7;

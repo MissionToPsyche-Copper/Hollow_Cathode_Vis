@@ -1,12 +1,16 @@
 
-/*NAVIGATION BAR*/
+/*NAVIGATION BAR
+navbar color #302144
+navbar text color "whitesmoke"
+footer background color #302144
+footer text color "whitesmoke"*/
 .navbar {
     width: 100%;
     min-height: 2.5em;
     box-shadow: 0 2px 10px 0 #89c2d9; 
   }
    #navigation {
-    color: #00798c;
+    color: whitesmoke;
   }
   #navigation:hover {
     color: #C5C6C7;
@@ -31,7 +35,9 @@
     text-align: center;
     color: #C5C6C7;
   }
-
+  .bg-color {
+    background-color: #302144;
+  }
   .reference {
     color: #C5C6C7;
     text-shadow: 0.5px 0.5px #89c2d9;
@@ -43,11 +49,19 @@
 /*Footer*/
 footer {
   text-shadow: 0.25px 0.25px #89c2d9;
-  display: flex;
+  display: flex; 
   align-items: center;
   justify-content: center;
-  height: 12px;
-  color: #C5C6C7;
+  height: 64px;
+  width: 100%;
+  color: whitesmoke;
+  background-color: #302144;
+  position: absolute;
+  bottom: 0;
+ /* justify-content: center; 
+    height: 12px;
+    color: #C5C6C7; */
+
 }
 hr {
   border-top: 2.0px solid #C5C6C7;
