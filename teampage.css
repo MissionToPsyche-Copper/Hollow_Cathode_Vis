@@ -54,37 +54,37 @@ footer text color "whitesmoke"*/
 * {box-sizing:border-box}
 
 .image-box{
-    display: flex;
-    top: 0px;
+   /* display: flex; */
 
     width: 100%;
-    position: center;
-    text-align: center;
+    background-image: linear-gradient(to bottom, transparent, white);
+    background-color: #302144; 
     font-size: 8em;
     /*<!--vertical-align: middle; Need to figure out how to vertically align with colors -->*/
-    background-color: black;
+
     horiz-align: center;
     align-items: center;
     margin: 0px;
-}
+
+}   
 /* Slideshow container */
-.slideshow-container {
+.slideshow{
     /*  These two lines restrict the image appearance on the slideshow
     max-width: 1000px; 
     max-height: 500px;  */
     position: relative; 
     margin: auto;
-    display: flex;
-    justify-content: center;
+    justify-content: contain;
     text-align: right;
-
+    background-size: contain; 
 }
 /*Added fixed width and height to secure sizing*/
 /*Note: This will not fit all screen sizes */
-.slideshow-container  img{
- width: 75vw;
- height: 35vw;
+.slideshow  img {
 
+    width: 100%; 
+    /*width: 75vw; */
+    height: 35vw;  
 }
 
 /* Hide the images by default */
