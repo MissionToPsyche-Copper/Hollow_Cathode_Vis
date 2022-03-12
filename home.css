@@ -1,26 +1,17 @@
 
-/*NAVIGATION BAR
-navbar color #302144
-navbar text color "whitesmoke"
-navbar text hover color: #F47C33;
-footer background color #302144
-footer text color "whitesmoke"*/
-
+/*NAVIGATION BAR*/
 .navbar {
     width: 100%;
     min-height: 2.5em;
     box-shadow: 0 2px 10px 0 #89c2d9; 
   }
    #navigation {
-    color: whitesmoke;
+    color: #00798c;
   }
   #navigation:hover {
-    color: #F47C33;
-  }
-
-  .bg-color{
-    background-color: #302144;
-  }
+    color: #C5C6C7;
+  } 
+  
   .devicon-coffeescript-original {
     font-size: 2.00em;
   }
@@ -73,15 +64,14 @@ footer text color "whitesmoke"*/
     text-shadow: 1.25px 1.25px #89c2d9;
     letter-spacing: 0.05em;
     text-align: center;
-
-    color: #F47C33;
+    color: #C5C6C7;
   }
   .intro-p {
     color: #C5C6C7;
     text-shadow: 0.5px 0.5px #89c2d9;
     font-size: clamp(0.5rem, 1.25rem, 3.0rem);
     margin: auto;
-    text-align: left;
+    text-align: center;
   }
 
 /*Footer*/
@@ -90,9 +80,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 64px;
-  color: whitesmoke;
-  background-color: #302144;
+  height: 12px;
+  color: #C5C6C7;
 }
 hr {
   border-top: 2.0px solid #C5C6C7;
