@@ -24,6 +24,7 @@ public class sceneLikeCamera : MonoBehaviour
     [SerializeField] private KeyCode anchoredRotateKey = KeyCode.Mouse2;
     
 
+    public Transform target;
     
 
 
@@ -38,6 +39,7 @@ public class sceneLikeCamera : MonoBehaviour
         cooldown = doubleClickTime;
 
         cooldown -= Time.deltaTime;
+        transform.LookAt(target);
 
     }
     
@@ -80,9 +82,11 @@ public class sceneLikeCamera : MonoBehaviour
     {
         Vector3 move = Vector3.zero;
         if(Input.GetKey (forwardKey))
-        move += Vector3.forward * moveSpeed;
+        //move += Vector3.forward * moveSpeed;
+        move += Vector3.up * moveSpeed;
         if(Input.GetKey (backKey))
-        move += Vector3.back * moveSpeed;
+        //move += Vector3.back * moveSpeed;
+        move += Vector3.down * moveSpeed;
         if(Input.GetKey (leftKey))
         move += Vector3.left * moveSpeed;
         if(Input.GetKey (rightKey))
