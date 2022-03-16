@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637827288716559144
+      ticks: 637830703061109198
     m_Hash: 172109317
   m_LockFileStatus:
     m_FilePath: C:/Users/dsknauss/Desktop/SER402/SER401_402_Hollow_Cathode/HollowCathodeOnly/hcv3/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637827288716599145
+      ticks: 637830703061149193
     m_Hash: 1596492292
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -76,12 +76,14 @@ m_PackageAssets:
         - 1.14.9
         - 1.14.12
         - 1.14.13
+        - 1.14.15
         - 1.15.1
         - 1.15.4
         - 1.15.7
         - 1.15.9
         - 1.15.12
         - 1.15.13
+        - 1.15.15
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -95,6 +97,7 @@ m_PackageAssets:
         compatible:
         - 1.15.12
         - 1.15.13
+        - 1.15.15
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -105,7 +108,7 @@ m_PackageAssets:
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
-        verified: 1.15.13
+        verified: 1.15.15
       dependencies:
       - name: com.unity.services.core
         version: 1.0.1
