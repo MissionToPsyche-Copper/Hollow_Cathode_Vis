@@ -120,6 +120,7 @@ hr {
 }
 
 /**********SpaceCraft Scroll bar***********/
+/*
  ::-webkit-scrollbar {
   width: 1.35em;
   background-color: #F5F5F5;
@@ -135,6 +136,7 @@ hr {
  }
 
 /* Buttons */
+/*
 ::-webkit-scrollbar-button:single-button {
   background-color: #bbbbbb;
   display: block;
@@ -143,6 +145,7 @@ hr {
   width: 16px;
 }
  /* Up */
+/*
  ::-webkit-scrollbar-button:single-button:vertical:decrement {
   border-width: 0 8px 8px 8px;
   border-color: transparent transparent #00798c transparent; 
@@ -151,8 +154,9 @@ hr {
 
 ::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
   border-color: transparent transparent #777777 transparent;
-}
+} */
 /* Down */
+/*
 ::-webkit-scrollbar-button:single-button:vertical:increment {
   border-width: 8px 8px 0 8px;
   border-color: #00798c  transparent transparent transparent;
@@ -161,3 +165,4 @@ hr {
 ::-webkit-scrollbar-button:vertical:single-button:increment:hover {
   border-color: #777777 transparent transparent transparent;
 }
+*/
