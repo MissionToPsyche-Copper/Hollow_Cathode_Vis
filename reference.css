@@ -1,9 +1,14 @@
 
-/*NAVIGATION BAR
+/******** COLOR PALLET ********/
+/*
 navbar color #302144
 navbar text color "whitesmoke"
 footer background color #302144
-footer text color "whitesmoke"*/
+footer text color "whitesmoke"
+*/
+/******** END OF COLOR PALLET ********/
+
+/******** NAVIGATION BAR STYLING ********/
 .navbar {
     width: 100%;
     min-height: 2.5em;
@@ -14,20 +19,16 @@ footer text color "whitesmoke"*/
   }
   #navigation:hover {
     color: #F47C33;
-  } 
-  
-  .devicon-coffeescript-original {
-    font-size: 2.00em;
   }
   .navbar i{
     color: #00798c;
   }
-  
   .navbar i:hover {
     color: #C5C6C7;
   }
+/******* END OF NAVIGATION STYLING *******/
 
-  /*Reference links*/
+/******** REFERENCE LINKS STYLING ********/
   #reference-section h3{
     font-size: clamp(1.0rem, 2.75rem, 1026px);
     text-shadow: 1.25px 1.25px #89c2d9;
@@ -43,10 +44,10 @@ footer text color "whitesmoke"*/
     text-shadow: 0.5px 0.5px #89c2d9;
     font-size: clamp(0.5rem, 1.25rem, 3.0rem);
     margin: auto;
-    /*text-align: center; */
   }
+/******** END OF REFERENCE LINKS STYLING ********/
 
-/*Footer*/
+/******** FOOTER STYLING ********/
 footer {
   text-shadow: 0.25px 0.25px #89c2d9;
   display: flex; 
@@ -58,11 +59,9 @@ footer {
   background-color: #302144;
   position: absolute;
   bottom: 0;
- /* justify-content: center; 
-    height: 12px;
-    color: #C5C6C7; */
-
 }
+/******** END OF FOOTER STYLING ********/
+
 hr {
   border-top: 2.0px solid #C5C6C7;
   box-shadow: 0 2.0px 10px 0 #89c2d9; 
