@@ -48,6 +48,7 @@ footer text color "whitesmoke"
 /******** END OF REFERENCE LINKS STYLING ********/
 
 /******** FOOTER STYLING ********/
+
 footer {
   text-shadow: 0.25px 0.25px #89c2d9;
   display: flex; 
@@ -57,8 +58,8 @@ footer {
   width: 100%;
   color: whitesmoke;
   background-color: #302144;
-  position: absolute;
-  bottom: 0;
+ /* position: absolute;
+  bottom: 0; */
 }
 /******** END OF FOOTER STYLING ********/
 
