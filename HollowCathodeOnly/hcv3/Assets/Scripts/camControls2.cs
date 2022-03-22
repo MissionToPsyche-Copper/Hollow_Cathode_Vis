@@ -17,8 +17,10 @@ public class camControls2 : MonoBehaviour
     [SerializeField] private KeyCode bRotateKey = KeyCode.S;
     [SerializeField] private KeyCode lRotateKey = KeyCode.A;
     [SerializeField] private KeyCode rRotateKey = KeyCode.D;
-    [SerializeField] private float speed = 1.0f;
+
     [SerializeField] public float xAngle, yAngle, zAngle;
+    [SerializeField] private float degreeStep = 60f;
+
     Vector3 OriginalPos;
     public Transform target;
 
@@ -26,51 +28,29 @@ public class camControls2 : MonoBehaviour
     {
         Vector3 move = Vector3.zero;   
         Vector3 targetDirection = target.position -transform.position;
-        float singleStep = speed * Time.deltaTime;
+        float step = degreeStep * Time.deltaTime;
         Vector3 targetPos = target.transform.position;
 
-        // if (Input.GetKey(fRotateKey))
-        // {
-        //     target.transform.Rotate(Vector3.forward * rotationSpeed);
-        // }
         if (Input.GetKey(fRotateKey))
         {
-            target.transform.Rotate(Vector3.left * rotationSpeed);
+            // target.transform.Rotate(Vector3.left * rotationSpeed);
+            transform.RotateAround(target.transform.position,Vector3.left, degreeStep*Time.deltaTime);
         }
-
-        // if (Input.GetKey(bRotateKey))
-        // {
-        //     target.transform.Rotate(Vector3.back * rotationSpeed);
-        // }
         if (Input.GetKey(bRotateKey))
         {
-            target.transform.Rotate(Vector3.right * rotationSpeed);
+            // target.transform.Rotate(Vector3.right * rotationSpeed);
+            transform.RotateAround(target.transform.position,Vector3.right, degreeStep*Time.deltaTime);
         }
-
-        // if (Input.GetKey(lRotateKey))
-        // {
-        //     target.transform.Rotate(Vector3.left * moveSpeed);
-        //     // target.transform.Rotate(Vector3.up * rotationSpeed);
-        // }
         if (Input.GetKey(lRotateKey))
         {
-            target.transform.Rotate(Vector3.forward * rotationSpeed);
-            // target.transform.Rotate(Vector3.up * rotationSpeed);
+            target.transform.Rotate(Vector3.up * rotationSpeed);
         }
 
-        // if (Input.GetKey(rRotateKey))
-        // {
-        //     target.transform.Rotate(Vector3.right * moveSpeed);
-        //     // target.transform.Rotate(Vector3.down * rotationSpeed);
-        // }
         if (Input.GetKey(rRotateKey))
         {
-            target.transform.Rotate(Vector3.back * rotationSpeed);
-            // target.transform.Rotate(Vector3.down * rotationSpeed);
+            target.transform.Rotate(Vector3.down * rotationSpeed);
         }
 
-
-        
         float mouseMoveY = Input.GetAxis("Mouse Y");
         float mouseMoveX = Input.GetAxis("Mouse X");
 

@@ -9956,10 +9956,10 @@ MonoBehaviour:
   bRotateKey: 115
   lRotateKey: 97
   rRotateKey: 100
-  speed: 1
   xAngle: 0
   yAngle: 0
   zAngle: 0
+  degreeStep: 60
   target: {fileID: 543450652655810069}
 --- !u!1 &1240625079
 GameObject:
