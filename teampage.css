@@ -13,21 +13,24 @@ footer text color "whitesmoke"*/
     width: 100%;
     min-height: 2.5em;
     box-shadow: 0 2px 10px 0 #89c2d9; 
-  }
-   #navigation {
-    color: whitesmoke;
-  }
-  #navigation:hover {
-    color: #F47C33;
-  } 
+}
 
-  .bg-color{
+#navigation {
+    color: whitesmoke;
+}
+
+#navigation:hover {
+    color: #F47C33;
+}
+
+.bg-color{
     background-color: #302144;
 }
 
 .devicon-coffeescript-original {
     font-size: 2.00em;
 }
+
 .navbar i{
     color: #00798c;
 }
@@ -35,12 +38,14 @@ footer text color "whitesmoke"*/
 .navbar i:hover {
     color: #C5C6C7;
 }
+/* End Navbar*/
+
 .header-box{
     background-color: black;
     text-align: center;
     display: block;
 } 
-/* Header box is the stying for meet the team */
+/* Header box is the styling for meet the team */
 
 #my-h1{
     display: block;
@@ -54,14 +59,11 @@ footer text color "whitesmoke"*/
 * {box-sizing:border-box}
 
 .image-box{
-   /* display: flex; */
 
     width: 100%;
     background-image: linear-gradient(to bottom, transparent, white);
     background-color: #302144; 
     font-size: 8em;
-    /*<!--vertical-align: middle; Need to figure out how to vertically align with colors -->*/
-
     horiz-align: center;
     align-items: center;
     margin: 0px;
@@ -188,6 +190,8 @@ img {
 }
 
 /* Clear floats after image containers */
+
+/* container that holds individual pictures of team*/
 .row::after {
     content: "";
     clear: both;
@@ -242,9 +246,11 @@ img {
     transform: rotateY(180deg);
 
 }
+
 .h2{
     justify-content: center;
 }
+/* rotation action on hover*/
 .teampic:hover {
     transform: rotateY(180deg);
 }
