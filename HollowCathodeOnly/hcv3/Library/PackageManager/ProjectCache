@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637830703061109198
-    m_Hash: 172109317
+      ticks: 637838409458473179
+    m_Hash: 709462014
   m_LockFileStatus:
     m_FilePath: C:/Users/dsknauss/Desktop/SER402/SER401_402_Hollow_Cathode/HollowCathodeOnly/hcv3/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637830703061149193
-    m_Hash: 1596492292
+      ticks: 637838409458513184
+    m_Hash: 1065148924
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -316,6 +316,7 @@ m_PackageAssets:
         - 3.0.9
         - 3.0.10
         - 3.0.12
+        - 3.0.13
         compatible:
         - 1.0.2
         - 1.0.6
@@ -345,6 +346,7 @@ m_PackageAssets:
         - 3.0.9
         - 3.0.10
         - 3.0.12
+        - 3.0.13
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -470,12 +472,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.ide.vscode@1.2.4
+    - packageId: com.unity.ide.vscode@1.2.5
       testable: 0
       isDirectDependency: 1
-      version: 1.2.4
+      version: 1.2.5
       source: 1
-      resolvedPath: C:\Users\dsknauss\Desktop\SER402\SER401_402_Hollow_Cathode\HollowCathodeOnly\hcv3\Library\PackageCache\com.unity.ide.vscode@1.2.4
+      resolvedPath: C:\Users\dsknauss\Desktop\SER402\SER401_402_Hollow_Cathode\HollowCathodeOnly\hcv3\Library\PackageCache\com.unity.ide.vscode@1.2.5
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -535,13 +537,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637660806170000000
+      datePublishedTicks: 637800255360000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.ide.vscode.git
-        revision: 1f4f605d5c988cb610c372b5c5216c46cc8f5d30
+        url: https://github.com/Unity-Technologies/com.unity.ide.vscode.git
+        revision: b0740c80bfc2440527c317109f7c3d9100132722
         path: 
     - packageId: com.unity.postprocessing@3.2.1
       testable: 0
@@ -3693,6 +3695,7 @@ m_PackageAssets:
         - 4.6.0-preview
         - 4.7.0-preview
         - 4.9.1
+        - 4.9.2
         compatible:
         - 4.0.0-preview
         - 4.0.0
@@ -3709,6 +3712,7 @@ m_PackageAssets:
         - 4.6.0-preview
         - 4.7.0-preview
         - 4.9.1
+        - 4.9.2
         verified: 4.3.2
       dependencies: []
       resolvedDependencies: []
