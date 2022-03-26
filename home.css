@@ -1,11 +1,14 @@
 
-/*NAVIGATION BAR
+/******** COLOR PALLET ********/
+/*
 navbar color #302144
 navbar text color "whitesmoke"
-navbar text hover color: #F47C33;
 footer background color #302144
-footer text color "whitesmoke"*/
+footer text color "whitesmoke"
+*/
+/******** END OF COLOR PALLET ********/
 
+/******** NAVIGATION BAR STYLING ********/
 .navbar {
     width: 100%;
     min-height: 2.5em;
@@ -17,24 +20,18 @@ footer text color "whitesmoke"*/
   #navigation:hover {
     color: #F47C33;
   }
-
   .bg-color{
     background-color: #302144;
-  }
-  .devicon-coffeescript-original {
-    font-size: 2.00em;
   }
   .navbar i{
     color: #00798c;
   }
-  
   .navbar i:hover {
     color: #C5C6C7;
   }
+/******* END OF NAVIGATION STYLING *******/
 
-
-
-  /*Hero Image and Styling*/
+/******** HERO IMAGE STYLING ********/
   #hero-img{
     /*Added rgba for dimming gradient on background images*/
     background-image: linear-gradient(rgba(10, 10, 100, 0.01), rgba(10, 0, 0, 0.03)), url('https://wallpapercave.com/wp/VgkEA9b.jpg');
@@ -46,36 +43,42 @@ footer text color "whitesmoke"*/
     position: relative; 
     min-height: 35vw; 
     width: 100%;
-    box-shadow: 0 6px 5px 0 #83837e; 
-    /*Above this is the hero section!*/
-  
-   
+    box-shadow: 0 6px 5px 0 #83837e;
+
     background-color: white;
     padding: clamp(100px, 20vh, 200px) 0;
   }
-  
+/******* END OF HERO IMAGE STYLING *******/
+
+/******* H2 STYLING ON HERO IMAGE (HOLLOW CATHODE VISUALIZATION) *******/
   #hero-img h2 {
   color: #C5C6C7; 
   font-size: clamp(1.0rem, 6.0vw, 10.0rem);
   text-shadow: 2.5px 2.5px #232525;
   text-align: center;
   }
+/******* END OF H2 STYLING ON HERO IMAGE *******/
+
+/******* H3 STYLING ON HERO IMAGE STYLING (A JOURNEY TO A METAL WORLD) *******/
   #hero-img h3 {
     color: #C5C6C7;
     font-size: clamp(1.0rem, 3.0vw, 8.0rem);
     text-shadow: 2.0px 2.0px #232525;
     text-align: center;
   }
+/******* END OF H3 STYLING ON HERO IMAGE STYLING*******/
 
-  /*Introduction Section*/
+/******* INTRODUCTION HEADERS STYLING *******/
   #intro-section h3 {
     font-size: clamp(1.0rem, 2.75rem, 1026px);
     text-shadow: 1.25px 1.25px #89c2d9;
     letter-spacing: 0.05em;
     text-align: center;
-
     color: #F47C33;
   }
+/******* END OF INTRODUCTION HEADERS STYLING*******/
+
+/******* INTRODUCTION PARAGRAPH STYLING *******/
   .intro-p {
     color: #C5C6C7;
     text-shadow: 0.5px 0.5px #89c2d9;
@@ -83,8 +86,9 @@ footer text color "whitesmoke"*/
     margin: auto;
     text-align: left;
   }
+/******* END OF INTRODUCTION PARAGRAPH STYLING *******/
 
-/*Footer*/
+/******** FOOTER STYLING ********/
 footer {
   text-shadow: 0.25px 0.25px #89c2d9;
   display: flex;
@@ -94,6 +98,9 @@ footer {
   color: whitesmoke;
   background-color: #302144;
 }
+/******** END OF FOOTER STYLING ********/
+
+
 hr {
   border-top: 2.0px solid #C5C6C7;
   box-shadow: 0 2.0px 10px 0 #89c2d9; 
