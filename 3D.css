@@ -32,7 +32,7 @@ body {
   }
 /******* END OF HERO IMAGE STYLING *******/
 
-    /******* H2 TEXT ON HERO IMAGE STYLING *******/
+/******* H2 TEXT ON HERO IMAGE STYLING *******/
     .spacecraft-text h2{
     font-size: clamp(1.0rem, 5.0vw, 9.0rem);
     text-shadow: 2.5px 2.5px #232525;
@@ -46,7 +46,7 @@ body {
     text-align: center;
     color: #C5C6C7;
     }
-    /******* END OF H2 TEXT ON HERO IMAGE STYLING *******/
+/******* END OF H2 TEXT ON HERO IMAGE STYLING *******/
 
 /******* END OF HERO IMAGE STYLING *******/
 

@@ -1,14 +1,17 @@
-
-/*body {
-  /*background-color: rgb(114, 160, 212); 
-} */
-
-/*NAVIGATION BAR
+/******** COLOR PALLET ********/
+/*
 navbar color #302144
 navbar text color "whitesmoke"
 footer background color #302144
-footer text color "whitesmoke"*/
+footer text color "whitesmoke"
+*/
+/******** END OF COLOR PALLET ********/
+/*
+body {
+  background-color: #C5C6C7;
+} */
 
+/******** NAVIGATION BAR STYLING ********/
 .navbar {
     width: 100%;
     min-height: 2.5em;
@@ -22,38 +25,19 @@ footer text color "whitesmoke"*/
   } 
   .bg-color{
       background-color: #302144;
-
-  }
-  .devicon-coffeescript-original {
-    font-size: 2.00em;
   }
   .navbar i{
     color: #00798c;
   }
-  
   .navbar i:hover {
     color: #C5C6C7;
   }
+/******* END OF NAVIGATION STYLING *******/
 
-
-/*INPIRATION SECTION*/
-
-#inspiration-section h3 {
-    font-size: clamp(1.0rem, 2.75rem, 1026px);
-    letter-spacing: 0.05em;
-    text-shadow: 1.25px 1.25px #89c2d9;
-    text-align: center;
-    color: #C5C6C7;
-    position: relative;
-    bottom: 425px;
-    right: 450px;
-    letter-spacing: 0.05em;
-  }
+/******* GIFS BOOTSTRAP CONTAINER STYLING *******/
   #inspiration-section {
     background-color: #302144;
-  
   }
-
   #inspiration-section p {
     color: #131313;
     position: relative;
@@ -62,7 +46,6 @@ footer text color "whitesmoke"*/
     font-size: clamp(0.5rem, 1.50rem, 32px);
     text-shadow: 0.75px 0.75px #C5C6C7;
     filter: brightness(100%);
-    
   }
   .carousel-indicators .btn{
     width: clamp(1.0rem, 6.0vw, 8.0rem);
@@ -73,8 +56,6 @@ footer text color "whitesmoke"*/
     object-fit: contain;
     z-index: 1;
   }
- 
-  
   .carousel-item img{
     height: 600px; 
     width: 100%;
@@ -84,21 +65,36 @@ footer text color "whitesmoke"*/
     background-image: linear-gradient(to bottom, transparent, white);
     background-color: #302144; 
     border-radius: 15px;
-    
     z-index: 2;
-    
   }
+/******* END OF GIFS BOOTSTRAP CONTAINER STYLING *******/
 
-  /*Figure section: Styling the content of each figure below the images*/
-  #figure-section p {
-    font-size: clamp(1.0rem, 1.5rem, 1026px);
-    color: #00798c;
-    text-shadow: 1.0px 1.0px #131313;
-    filter: brightness(100%);
-    text-align: justify;
-  }
+/******** FIGURE 1,2,3,4 CONTENT STYLING  ********/
+/*  #figure-section p {*/
+/*    font-size: clamp(1.0rem, 1.5rem, 1026px);*/
+/*    color: #00798c;*/
+/*    text-shadow: 1.0px 1.0px #131313;*/
+/*    filter: brightness(100%);*/
+/*    text-align: justify;*/
+/*  }*/
+#figure-section p {
+  color: #C5C6C7;
+  text-shadow: 0.5px 0.5px #89c2d9;
+  font-size: clamp(0.5rem, 1.25rem, 3.0rem);
+  margin: auto;
+  text-align: left;
+}
+#figure-section h3 {
+  font-size: clamp(1.0rem, 5.0vw, 9.0rem);
+  text-shadow: 1.25px 1.25px #89c2d9;
+  text-align: center;
+  color: #C5C6C7;
+  position: relative;
+  letter-spacing: 0.05em;
+}
+/******** END OF FIGURE 1,2,3,4 CONTENT STYLING  ********/
 
-/*******Footer*********/
+/******** FOOTER STYLING ********/
 footer {
   text-shadow: 0.25px 0.25px #89c2d9;
   display: flex;
@@ -107,12 +103,9 @@ footer {
   height: 64px;
   color: whitesmoke;
   background-color: #302144;
-/*
-  justify-content: center; 
-  height: 12px;
-  color: #C5C6C7; */
+}
+/******** END OF FOOTER STYLING ********/
 
-}  
 hr {
   border-top: 2.0px solid #C5C6C7;
   box-shadow: 0 2.0px 10px 0 #89c2d9; 
