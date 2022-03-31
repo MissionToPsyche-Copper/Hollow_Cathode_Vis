@@ -4,37 +4,29 @@ using UnityEngine;
 
 public class ToggleButton : MonoBehaviour
 {
-    public Material[] material;
+
     Renderer rend;
     GameObject hollowCathode;
-    public Material mat1;
-    public Material mat2;
 
 
-    // void start() {
-    //     rend = GetComponent<Renderer>();
-    //     rend.enabled = true;
-    //     rend.sharedMaterial = material[0];
-    //     hollowCathode = GameObject.Find("Hollow Cathode");
-    //     mat1=Resources.Load("transparentMat") as Material;
-    //     hollowCathode.GetComponent<MeshRenderer>().material = mat1;
-    // }
+    public void ChangeMat()
+    {
 
-    public void ChangeMat() {
-
-        rend = GetComponent<Renderer>();
-        rend.enabled = true;
-        rend.sharedMaterial = material[0];
+        Material mat1 = Resources.Load("transparentMat", typeof(Material)) as Material;
+        Material mat2 = Resources.Load("solidMat", typeof(Material)) as Material;
         hollowCathode = GameObject.Find("Hollow Cathode");
+        hollowCathode.GetComponent<MeshRenderer>();
+        rend = GetComponent<MeshRenderer>();
+        rend.enabled = true;
 
-
-
-        if (hollowCathode.GetComponent<MeshRenderer>().material == mat1) {
-            mat2=Resources.Load("solidMat") as Material;
+        if (hollowCathode.GetComponent<MeshRenderer>().material = mat1)
+        {
             hollowCathode.GetComponent<MeshRenderer>().material = mat2;
-        } else if (hollowCathode.GetComponent<MeshRenderer>().material == mat2) {
-            mat1=Resources.Load("transparentMat") as Material;
-        hollowCathode.GetComponent<MeshRenderer>().material = mat1;
+
+        }
+        else if (hollowCathode.GetComponent<MeshRenderer>().material = mat2)
+        {
+            hollowCathode.GetComponent<MeshRenderer>().material = mat1;
         }
     }
 
