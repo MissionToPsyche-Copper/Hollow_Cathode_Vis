@@ -7,9 +7,13 @@ footer text color "whitesmoke"
 */
 /******** END OF COLOR PALLET ********/
 /*
+
+ */
+/******** BODY BACKGROUND COLOR ******/
 body {
-  background-color: #C5C6C7;
-} */
+  background-color: ghostwhite;
+}
+/******** END OF BODY BACKGROUND COLOR ******/
 
 /******** NAVIGATION BAR STYLING ********/
 .navbar {
