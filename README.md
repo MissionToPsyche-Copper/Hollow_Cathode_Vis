@@ -12,13 +12,6 @@
 #### -Blender: An open-source three dimensional computer graphics software toolset used for creaing three dimensional printable models and motion graphics.
 #### -Sketchfab: An open-source three dimensional platform providing users to display three dimensional models based on WebGL and WebXR technologies.
 
-## Open Source Account Information
-#### -Blender Username: TBD
-#### -Blender Password: TBD
-
-#### -Sketchfab Username: TBD
-#### -Sketchfab Password: TBD
-
 ## Languages
 #### -HTML: Hypertext Markup Language is the standard markup language for documents designed, displayed and structured in a web browser.
 #### -CSS: Cascade Style Sheets presents and describes the documents written in HTML and elements rendered on a screen.
