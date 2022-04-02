@@ -8,9 +8,11 @@ footer text color "whitesmoke"
 */
 /******** END OF COLOR PALLET ********/
 
-/*body {*/
-/*  background-color: #C5C6C7;*/
-/*}*/
+/******** BODY BACKGROUND COLOR ******/
+body {
+    background-color: ghostwhite;
+}
+/******** END OF BODY BACKGROUND COLOR ******/
 
 /******** HERO IMAGE STYLING ********/
  #hero-section{

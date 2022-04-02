@@ -4,6 +4,11 @@ navbar text hover color: #F47C33;
 footer background color #302144
 footer text color "whitesmoke"*/
 
+/******** BODY BACKGROUND COLOR ******/
+body {
+    background-color: ghostwhite;
+}
+/******** END OF BODY BACKGROUND COLOR ******/
 
 #my-body {
     margin:0;
