@@ -40,7 +40,8 @@ body {
 /******** HERO IMAGE STYLING ********/
   #hero-img{
     /*Added rgba for dimming gradient on background images*/
-    background-image: linear-gradient(rgba(10, 10, 100, 0.01), rgba(10, 0, 0, 0.03)), url('https://wallpapercave.com/wp/VgkEA9b.jpg');
+    background-image: linear-gradient(rgba(10, 10, 100, 0.01), rgba(10, 0, 0, 0.03)), url('heroIMG/pysche.jpg');
+    /*background-image: linear-gradient(rgba(10, 10, 100, 0.01), rgba(10, 0, 0, 0.03)), url('https://wallpapercave.com/wp/VgkEA9b.jpg'); */
 
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
