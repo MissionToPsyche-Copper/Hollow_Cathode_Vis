@@ -12,6 +12,10 @@
 #### -Blender: An open-source three dimensional computer graphics software toolset used for creaing three dimensional printable models and motion graphics.
 #### -Sketchfab: An open-source three dimensional platform providing users to display three dimensional models based on WebGL and WebXR technologies.
 
+## Object Files
+#### -Blender model objects can be found in the hvc3Game/build file folder. There are two javascript files and two object files that run the unity model.
+#### -Sketchfab model object can be found in the sketchfabObject file folder. There are two object files that run the sketchfab model.
+
 ## Languages
 #### -HTML: Hypertext Markup Language is the standard markup language for documents designed, displayed and structured in a web browser.
 #### -CSS: Cascade Style Sheets presents and describes the documents written in HTML and elements rendered on a screen.
