@@ -1,0 +1,271 @@
+<!--
+/******* AUTHORS *******/
+    Michael Woodward
+    Daniel Knauss
+    James Hollingsworth
+    John Stauffer
+/******* END OF AUTHORS *******/
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Dimensional</title>
+
+    <!-- Link for boostrap from: 
+    https://getbootstrap.com/docs/5.0/getting-started/introduction -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    
+    <!-- Custom styles (these can extend bootstrap which is JUST CSS!) -->
+    <link href="3D.css" rel="stylesheet" type="text/css" />
+</head>
+    
+<body data-bs-spy="scroll" data-bs-target="#navbar-spy" data-bs-offset="100">
+
+    <!--******** NAVIGATION BAR ************-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-color sticky-top" id="navbar-spy">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="Pschye visual assets/Psyche_BadgeOutline_Color-PNG.png" width = 35em; height = 35em></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" id="navigation" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="navigation" href="3D.html">3D Model</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="navigation" href="TeamPage.html">Meet the Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="navigation" href="reference.html">References</a>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+    <!--******** END NAVIGATION BAR ************-->
+
+    <!--******** HERO SECTION ************-->
+     <section id="hero-section">
+      <div class="spacecraft" id="spacecraft-img">
+      </div>
+<!--      <div class="spacecraft-text">-->
+<!--        <h2>Three Dimensional Model </h2>-->
+<!--      </div>-->
+    </section>
+    <!--******** END OF HERO SECTION ************-->
+
+    <!--This br Creates a break between the hero image and the starting 3D models-->
+    <br>
+    <!--******** HEADER FOR THREE DIMENSIONAL MODEL ************-->
+    <div class = "model-head">
+        <h3>Three Dimensional Model</h3>
+    </div>
+    <!--******** END OF HEADER FOR THREE DIMENSIONAL MODEL ************-->
+
+    <br></br>
+    <section class="container" id="figure-section">
+        <!--This br Creates a break between the i-videos 3D models image and the starting 3D models-->
+
+        <div class="row">
+            <div class="col-12 figure">
+                <p>
+                    The static model of the hollow cathode has been spliced in half in order to display the inner workings of the hollow cathode.
+                    To interact with the model, click play in the window below. Cycle through the "Select Annotation"
+                    controls at the bottom of the window to learn about the components of the hollow cathode and how they work.
+
+                </p>
+                <br>
+            </div>
+        </div>
+    </section>
+    <!--******** END OF STYLING THE CONTENT UNDER EACH FIGURE ************-->
+
+    <br>
+    <!--******** SKETCH-FAB IFRAME ************-->
+    <section class="container" id="three-dimension">
+      <div class="row">
+          <!--
+        <div class="col-lg-12 skills">
+          <div class="sketchfab-embed-wrapper"> 
+            <iframe title="1 23 Gas" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/2c74d57505d640c08ee5b4c1449aef09/embed"> </iframe> 
+           <p>
+              Figure 1
+            </p>  
+          </div>
+        </div> -->
+
+        <div class="col-sm-12 skills">
+          <div class="sketchfab-embed-wrapper"> 
+            <iframe title="SampleScene" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/99f7afa4570d4a388582cb80eddb242d/embed"> </iframe>
+          </div>
+        </div>
+      </div>
+    </section><br>
+    <!--******** END OF SKETCH-FAB IFRAME ************-->
+
+    <!--******** STYLING THE CONTENT UNDER EACH FIGURE ************-->
+
+
+    <!--******** HEADER FOR IONIZATION MODEL ************-->
+    <div class = "model-head">
+        <h3>Ionization Model</h3>
+    </div>
+    <section class="container" id="figure-section">
+        <!--This br Creates a break between the i-videos 3D models image and the starting 3D models-->
+        <br>
+        <div class="row">
+            <div class="col-12 ">
+                <p>
+                    This animation shows the Hollow Cathode. As it begins, you will see the
+                    produces electrons that are emitted begin to flow into the cathode tube.
+                    The heated cathode insert begins the emission and ionizes the gas. The positively
+                    charged keeper electrode then pulls the ionized plasma into the Hall Thruster.
+                    These electrons will be trapped by perpendicular electric and magnetic fields, where they are ionized
+                    and accelerate the propellant to make thrust. Another Hollow Cathode then neutralizes the ejected
+                    ions. Controls for the Ionization Model are below the image.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--******** END OF HEADER FOR IONIZATION MODEL ************-->
+
+    <br></br>
+    <!--******** THREE DIMENSIONAL MODEL EMBEDDED UNITY USING WEBGL ************-->
+   <section id ="electron-model">
+        <div class="col-lg-12 unity-desktop" id="unity-container" >
+            <canvas id="unity-canvas" ></canvas>
+            <div id="unity-loading-bar">
+                <div id="unity-logo"></div>
+                <div id="unity-progress-bar-empty">
+                    <div id="unity-progress-bar-full"></div>
+                </div>
+            </div>
+            <div id="unity-warning"> </div>
+            <div id="unity-footer">
+                <div id="unity-fullscreen-button"></div>
+            </div>
+        </div>
+    <script>
+        var container = document.querySelector("#unity-container");
+        var canvas = document.querySelector("#unity-canvas");
+        var progressBarFull = document.querySelector("#unity-progress-bar-full");
+        var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+        var warningBanner = document.querySelector("#unity-warning");
+
+        // Displays temporary message at top or displays
+        // a permanent error message on top of the canvas if type=='error'.
+        // If type=='warning', a yellow highlight color is used.
+        function unityShowBanner(msg, type) {
+            function updateBannerVisibility() {
+                warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
+            }
+            var div = document.createElement('div');
+            div.innerHTML = msg;
+            warningBanner.appendChild(div);
+            if (type == 'error') div.style = 'background: red; padding: 10px;';
+            else {
+                if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
+                setTimeout(function() {
+                    warningBanner.removeChild(div);
+                    updateBannerVisibility();
+                }, 5000);
+            }
+            updateBannerVisibility();
+        }
+
+        var buildUrl = "hcv3Game/Build";
+        var loaderUrl = buildUrl + "/hcv3Game.loader.js";
+        var config = {
+            dataUrl: buildUrl + "/hcv3Game.data",
+            frameworkUrl: buildUrl + "/hcv3Game.framework.js",
+            codeUrl: buildUrl + "/hcv3Game.wasm",
+            streamingAssetsUrl: "StreamingAssets",
+            companyName: "DefaultCompany",
+            productName: "hcv3",
+            productVersion: "0.1",
+            showBanner: unityShowBanner,
+        };
+
+        // By default Unity keeps WebGL canvas render target size matched with
+        // the DOM size of the canvas element (scaled by window.devicePixelRatio)
+        // Set this to false if you want to decouple this synchronization from
+        // happening inside the engine, and you would instead like to size up
+        // the canvas DOM size and WebGL render target sizes yourself.
+        // config.matchWebGLToCanvasSize = false;
+
+        if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+            container.className = "unity-mobile";
+            // Avoid draining fillrate performance on mobile devices,
+            // and default/override low DPI mode on mobile browsers.
+            config.devicePixelRatio = 1;
+            unityShowBanner('WebGL builds are not supported on mobile devices.');
+        } else {
+            <!--Width of the current three Dimensional electron Model on the page-->
+            canvas.style.width = "1300px";
+            canvas.style.height = "600px";
+        }
+        // loadingBar.style.display = "block";
+
+        var script = document.createElement("script");
+        script.src = loaderUrl;
+        script.onload = () => {
+            createUnityInstance(canvas, config, (progress) => {
+                progressBarFull.style.width = 100 * progress + "%";
+            }).then((unityInstance) => {
+                fullscreenButton.onclick = () => {
+                    unityInstance.SetFullscreen(1);
+                };
+            }).catch((message) => {
+                alert(message);
+            });
+        };
+        document.body.appendChild(script);
+    </script>
+   </section>
+    <!--******** END OF THREE DIMENSIONAL MODEL EMBEDDED UNITY USING WEBGL ************-->
+
+    <!--******** STYLING THE CONTENT UNDER EACH FIGURE ************-->
+
+    <br>
+    <section class="container" id="figure-section">
+    <div class="row">
+        <div class="col-12">
+            <h3>Model Controls</h3>
+            <p>
+            <ul>
+                <li>Keyboard Toggle Control 'w': Pressing key 'w' will rotate the model vertically upwards.</li>
+                <li>Keyboard Toggle Control 's': Pressing key 's' will rotate the model vertically downwards. </li>
+                <li>Keyboard Toggle Control 'a': Pressing key 'a' will rotate the model horizontally to the left.</li>
+                <li>Keyboard Toggle Control 'd': Pressing key 'd' will rotate the model horizontally to the right.</li>
+                <li>Button 'solid': Pressing the solid button will annotate a filled in hollow cathode.</li>
+                <li>Button 'expand': Pressing the double arrays in the bottom right will expand to full screen mode.</li>
+                <li>Button 'transparent': Pressing the transparent button will annotate a transparent look of the hollow cathode.</li>
+                <li>Mouse Upward Scroll: Scroll upward on mouse to zoom in.</li>
+                <li>Mouse Downward Scroll: Scroll downward on mouse to zoom out.</li>
+                <li>Keyboard Toggle Control 'esc' : Exits out of full screen mode.</li>
+            </ul>
+            </p>
+        </div>
+    </div>
+</section>
+    <!--******** END OF STYLING THE CONTENT UNDER EACH FIGURE ************-->
+    <br>
+    <!--******** FOOTER SECTION ************-->
+    <footer>
+      &copy Hollow Cathode Visualization ASU 2021 Capstone I & II 
+    </footer>
+    <!--********END OF FOOTER SECTION ***********-->
+</body>
+</html>

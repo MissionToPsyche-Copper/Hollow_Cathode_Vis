@@ -1,0 +1,77 @@
+
+/******** COLOR PALLET ********/
+/*
+navbar color #302144
+navbar text color "whitesmoke"
+footer background color #302144
+footer text color "whitesmoke"
+*/
+/******** END OF COLOR PALLET ********/
+
+/******** BODY BACKGROUND COLOR ******/
+body {
+  background-color: ghostwhite;
+}
+/******** END OF BODY BACKGROUND COLOR ******/
+
+/******** NAVIGATION BAR STYLING ********/
+.navbar {
+    width: 100%;
+    min-height: 2.5em;
+    box-shadow: 0 2px 10px 0 #89c2d9; 
+  }
+   #navigation {
+    color: whitesmoke;
+  }
+  #navigation:hover {
+    color: #F47C33;
+  }
+  .navbar i{
+    color: #00798c;
+  }
+  .navbar i:hover {
+    color: #C5C6C7;
+  }
+/******* END OF NAVIGATION STYLING *******/
+
+/******** REFERENCE LINKS STYLING ********/
+  #reference-section h3{
+    font-size: clamp(1.0rem, 4.5vw, 9.0rem);
+    text-shadow: 1.25px 1.25px #89c2d9;
+    letter-spacing: 0.025em;
+    text-align: center;
+    color: #C5C6C7;
+  }
+  .bg-color {
+    background-color: #302144;
+  }
+  .reference {
+    color: #C5C6C7;
+    text-shadow: 0.5px 0.5px #89c2d9;
+    font-size: clamp(0.5rem, 1.25rem, 3.0rem);
+    margin: auto;
+  }
+/******** END OF REFERENCE LINKS STYLING ********/
+
+/******** FOOTER STYLING ********/
+
+footer {
+  text-shadow: 0.25px 0.25px #89c2d9;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  width: 100%;
+  color: whitesmoke;
+  background-color: #302144;
+ /* position: absolute;
+  bottom: 0; */
+}
+/******** END OF FOOTER STYLING ********/
+
+hr {
+  border-top: 2.0px solid #C5C6C7;
+  box-shadow: 0 2.0px 10px 0 #89c2d9; 
+  /* color: #C5C6C7; */
+}
+
